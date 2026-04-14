@@ -10,6 +10,6 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generati
 
 ### Comande tester (J'ai eu des problème avec la clé ssh, j'ai pas pus commit les éléments comme je le voulais)
 
-git config --global user.name "Theo-Freret-CESI" <br>
+git config --global user.name "username-github" <br>
 git config --global user.email 'address.mail@viacesi.fr' <br>
 ssh-keygen -t rsa -b 4096 -C 'address.mail@viacesi.fr' <br>
