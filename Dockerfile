@@ -7,7 +7,7 @@ LABEL description="Bookwom"
 #install d'apache
 RUN apt update -y && apt install -y apache2
 #install php 7.4
-RUN apt install software-propoties-common -y && add-apt-repository ppa:ondrej/php -y && apt install php7.4 -y
+RUN apt install software-propoties-common -y && apt install php -y
 #Expose le port 80
 EXPOSE 80
 #Création et montage du répertoire pour le volume
