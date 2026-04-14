@@ -14,7 +14,7 @@ git config --global user.name "username-github" <br>
 git config --global user.email 'address.mail@viacesi.fr' <br>
 ssh-keygen -t rsa -b 4096 -C 'address.mail@viacesi.fr' <br>
 
-'''mermaid
+```mermaid
 Differentes_branches-v2
     Main --> branch_number_2
-'''
+```
