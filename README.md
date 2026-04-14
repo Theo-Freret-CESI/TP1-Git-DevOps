@@ -15,6 +15,6 @@ git config --global user.email 'address.mail@viacesi.fr' <br>
 ssh-keygen -t rsa -b 4096 -C 'address.mail@viacesi.fr' <br>
 
 ```mermaid
-Differentes_branches-v2;
+graph Differentes_branches-v2;
     Main --> branch_number_2;
 ```
