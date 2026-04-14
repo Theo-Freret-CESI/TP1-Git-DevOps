@@ -13,3 +13,8 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generati
 git config --global user.name "username-github" <br>
 git config --global user.email 'address.mail@viacesi.fr' <br>
 ssh-keygen -t rsa -b 4096 -C 'address.mail@viacesi.fr' <br>
+
+'''mermaid
+Differentes_branches-v2
+    Main --> branch_number_2
+'''
